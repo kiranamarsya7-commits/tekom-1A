@@ -1,0 +1,114 @@
+ <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        .header {
+            background-color: orange;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .wrapper {
+            display: flex;
+            min-height: 100vh;
+        }
+
+        nav {
+            background-color: black; 
+            color: white;
+            width: 25%;
+            padding: 30px;
+        }
+
+        nav h3 {
+            margin-top: 0;
+            font-size: 16px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin-bottom: 10px;
+            font-size: 13px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: orange;
+        }
+
+        main {
+            width: 75%;
+            padding: 30px;
+        }
+
+        .content-box {
+            background-color: white;
+            padding: 25px;
+            border-radius: 5px;
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        .dark-banner img {
+            width: 260px;
+			height: 150px;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+
+        .banner-text h2 {
+            color: orange;
+            margin: 0 0 10px;
+        }
+
+        .banner-text ul {
+            padding-left: 15px;
+            font-size: 13px;
+        }
+
+        .description-text {
+            margin-top: 15px;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th {
+            background-color: orange;
+            color: white;
+            padding: 10px;
+        }
+
+        td {
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        .footer {
+            background-color: #d9534f;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+</style>
